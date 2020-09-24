@@ -38,3 +38,17 @@ In R, we us Cost C which is inversely related to Budget B.    **C = 1/B**
               C is large  =   narrow margins  =     low misclassification
               
 ***Support Vector Classifiers work only in the case when the points can be linearly separated.***            
+
+# Support Vector Machines
+
+These are an extension of Support Vector Classifiers which uses **Kernels** to create non-linear boundaries.
+
+Kernels are functions between two observations that lead to different hyperplane shapes. These are of multiple types, few exmaples are 
+linear, polynomial and radial.
+
+**gamma** is a hyperparameter that influences the effect of nearby points.
+
+        High gamma = less impact of nearby points
+        Low gamma  = more impact of nearby points
+        
+        
