@@ -7,8 +7,8 @@ For exmaple, simple point for 1D, line for 2D, plane in 3D and so on.
 
 When a margin divides data, there are perpendicular distances to data points from this margin. The smallest distances ( or distances ) is called
 the ***margin***.  In case of Maximal Margin Classsifier, we want maximum value of margins. Hence, it is the farthest closest point for a certain hyperplane.
+Limitations:
 
-  Limitations:
               - Cannot be used when the data cannot be divided by a hyperplane
               - It is very sensitive to support vectors.
 
