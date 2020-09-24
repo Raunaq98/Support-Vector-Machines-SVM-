@@ -25,10 +25,16 @@ As it is soft margin, two cases arise :
               the hyperplane    = currectly classified
             - The datapoint is on the wrong side of the margin and the opposite side of
               the hyperplane    = incorrect classification
-             
+**Now all the points on the wrong side of the margin as well as on the margin are now considered as support vectors.**
+
 Support Vector Classifiers   =    Maximal Margin Classifiers +  B
                                     wheree, B is the misclassification budget.
                                     
               sum of distancees of points on wrong side of margin < B
               
 In R, we us Cost C which is inversely related to Budget B.    **C = 1/B**              
+
+              C is small  =   wide margins    =     high misclassification
+              C is large  =   narrow margins  =     low misclassification
+              
+***Support Vector Classifiers work only in the case when the points can be linearly separated.***            
